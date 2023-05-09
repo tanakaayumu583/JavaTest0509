@@ -20,10 +20,10 @@ public class Main {
 		//練習問題8
 		System.out.println(method_test.getMessage("たなか",true));
 		//練習問題9
-		String[] arr = { "りんご", "みかん", "パイナップル" };
+		String[] arr = { "たなか", "やまもと", "ささき" };
 		System.out.println(method_test.getLongestString(arr));
 		//練習問題10
-		Person person_class = new Person("田中",19);
+		Person person_class = new Person("田中",29);
 		System.out.println(method_test.isAdult(person_class));
 	}
 }

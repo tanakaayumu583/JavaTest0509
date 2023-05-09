@@ -2,11 +2,8 @@ package jp.co.aforce.test;
 
 public class MinMax {
 	int getMaxValue(int a,int b,int c ) {
-		int max_num = -99999999;
+		int max_num = a;
 		
-		if(max_num < a) {
-			max_num = a;
-		}
 		if(max_num < b){
 			max_num = b;
 		}
@@ -17,11 +14,8 @@ public class MinMax {
 	}
 	
 	int getMinValue(int a,int b,int c ) {
-		int min_num = 9999999 ;
+		int min_num = a ;
 		
-		if(min_num > a) {
-			min_num = a;
-		}
 		if(min_num > b){
 			min_num = b;
 		}
