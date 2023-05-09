@@ -106,9 +106,11 @@ public class PracticeTest8 {
 	//練習問題9
 	String getLongestString(String[] array) {
 		int array_length = array.length;
+		int maximum_length_word = 0;
 		int maximum_length_index = 0;
 		for (int i = 0; i < array_length; i++) {
-			if (maximum_length_index <= array[i].length()) {
+			if (maximum_length_word <= array[i].length()) {
+				maximum_length_word = array[i].length();
 				maximum_length_index = i;
 			}
 		}
